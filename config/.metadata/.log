@@ -1,0 +1,247 @@
+Warning: NLS missing message: INCLUDE_SCRIPTS_FOLDER in: com.kms.katalon.constants.globalMessages
+katalon.versionNumber=5.8.0
+katalon.buildNumber=1
+Could not find element with Id 'com.kms.katalon.composer.webservice.handledmenuitem.webServiceRequest'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Warning: NLS unused message: PA_LBL_CREATED_DATE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: PA_LBL_LAST_UPDATED in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+Warning: NLS unused message: ACTIVATED_PROP_NAME in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATE_INFO_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_CODE_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_COLLECT_FAIL_MESSAGE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: DIA_TITLE_FUNCTIONS_INTRODUCTION in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ERR_CONSOLE_MODE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: REQUEST_CODE_PROP_NAME in: com.kms.katalon.constants.messages
+!SESSION 2018-10-17 09:38:37.694 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Dev\TeamMembersApi\HBG.TeamMembers.Katalon\TestProject.prj
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data config C:\Dev\TeamMembersApi\HBG.TeamMembers.Katalon\TestProject.prj
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-17 09:38:45.707
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ValentaM'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 17 Oct 2018 14:38:46 -0000". Invalid 'expires' attribute: Wed, 17 Oct 2018 14:38:46 -0000
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 17 Oct 2018 14:38:46 -0000". Invalid 'expires' attribute: Wed, 17 Oct 2018 14:38:46 -0000
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: _octo=GH1.1.1844814174.1539783526; domain=.github.com; path=/; expires=Sat, 17 Oct 2020 13:38:46 -0000". Invalid 'expires' attribute: Sat, 17 Oct 2020 13:38:46 -0000
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: _octo=GH1.1.2061088884.1539783526; domain=.github.com; path=/; expires=Sat, 17 Oct 2020 13:38:46 -0000". Invalid 'expires' attribute: Sat, 17 Oct 2020 13:38:46 -0000
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 17 Oct 2038 13:38:46 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 17 Oct 2038 13:38:46 -0000
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 17 Oct 2038 13:38:46 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 17 Oct 2038 13:38:46 -0000
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-10-17 09:38:46.477
+!MESSAGE 
+!STACK 0
+com.kms.katalon.composer.update.UpdateException: javax.net.ssl.SSLException: Received close_notify during handshake
+	at com.kms.katalon.composer.update.download.FileDownloader.download(FileDownloader.java:92)
+	at com.kms.katalon.composer.update.jobs.CheckForUpdatesJob.run(CheckForUpdatesJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.net.ssl.SSLException: Received close_notify during handshake
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:208)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1949)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1901)
+	at sun.security.ssl.SSLSocketImpl.recvAlert(SSLSocketImpl.java:2002)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1125)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.kms.katalon.composer.update.download.FileDownloader.download(FileDownloader.java:72)
+	... 2 more
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 17 Oct 2018 14:38:46 -0000". Invalid 'expires' attribute: Wed, 17 Oct 2018 14:38:46 -0000
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: _octo=GH1.1.239285129.1539783526; domain=.github.com; path=/; expires=Sat, 17 Oct 2020 13:38:46 -0000". Invalid 'expires' attribute: Sat, 17 Oct 2020 13:38:46 -0000
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 17 Oct 2038 13:38:46 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 17 Oct 2038 13:38:46 -0000
+Exception in thread "Thread-5" Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 17 Oct 2018 14:38:46 -0000". Invalid 'expires' attribute: Wed, 17 Oct 2018 14:38:46 -0000
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: _octo=GH1.1.1849373058.1539783526; domain=.github.com; path=/; expires=Sat, 17 Oct 2020 13:38:46 -0000". Invalid 'expires' attribute: Sat, 17 Oct 2020 13:38:46 -0000
+java.lang.NullPointerException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 17 Oct 2038 13:38:46 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 17 Oct 2038 13:38:46 -0000
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:598)
+	at java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:677)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:735)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at com.kms.katalon.composer.parts.WelcomeRightPart.lambda$5(WelcomeRightPart.java:625)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at java.util.HashMap.merge(HashMap.java:1224)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1320)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1691)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at com.kms.katalon.composer.project.sample.SampleRemoteProjectProvider.getThumbnailFiles(SampleRemoteProjectProvider.java:62)
+	at com.kms.katalon.composer.parts.WelcomeRightPart.lambda$9(WelcomeRightPart.java:626)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 17 Oct 2018 14:38:46 -0000". Invalid 'expires' attribute: Wed, 17 Oct 2018 14:38:46 -0000
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: _octo=GH1.1.665802792.1539783526; domain=.github.com; path=/; expires=Sat, 17 Oct 2020 13:38:46 -0000". Invalid 'expires' attribute: Sat, 17 Oct 2020 13:38:46 -0000
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Oct 17, 2018 9:38:46 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 17 Oct 2038 13:38:46 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 17 Oct 2038 13:38:46 -0000
+Warning: NLS unused message: Key in: com.kms.katalon.composer.search.constants.composerSearchMessages
+
+!ENTRY org.eclipse.ui 4 0 2018-10-17 09:40:18.447
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:65)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.processDynamicElements(MenuManagerShowProcessor.java:158)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:113)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:92)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:471)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5160)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4277)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3818)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.kms.katalon.core.application.Application.internalRunGUI(Application.java:115)
+	at com.kms.katalon.core.application.Application.runGUI(Application.java:100)
+	at com.kms.katalon.core.application.Application.start(Application.java:60)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.composer.objectrepository.menu.NewTestObjectPopupMenuContribution.aboutToShow(NewTestObjectPopupMenuContribution.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 48 more
+
+!ENTRY org.eclipse.ui 4 0 2018-10-17 09:40:22.148
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.msgFilterProc(Display.java:3541)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4897)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4897)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3822)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.kms.katalon.core.application.Application.internalRunGUI(Application.java:115)
+	at com.kms.katalon.core.application.Application.runGUI(Application.java:100)
+	at com.kms.katalon.core.application.Application.start(Application.java:60)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor$1.run(MenuManagerHideProcessor.java:103)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	... 44 more
