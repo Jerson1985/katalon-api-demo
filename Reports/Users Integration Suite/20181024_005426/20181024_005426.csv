@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Users Integration Suite,,,2018-10-24 00:54:31,2018-10-24 00:54:49,17.411s,PASSED
+,,,,,,
+Test Cases/Users/Integration 1 - Create,,,2018-10-24 00:54:32,2018-10-24 00:54:45,12.791s,PASSED
+"Statement - createResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 1 - Create, [url:internal.GlobalVariable.g_base_url]))",,,2018-10-24 00:54:33,2018-10-24 00:54:45,12.177s,PASSED
+verifyResponseStatusCode,,,2018-10-24 00:54:45,2018-10-24 00:54:45,0.005s,PASSED
+verifyElementPropertyValue,,,2018-10-24 00:54:45,2018-10-24 00:54:45,0.082s,PASSED
+verifyElementPropertyValue,,,2018-10-24 00:54:45,2018-10-24 00:54:45,0.041s,PASSED
+,,,,,,
+Test Cases/Users/Integration 2 - Read,,,2018-10-24 00:54:45,2018-10-24 00:54:46,1.019s,PASSED
+"Statement - readResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 2 - Read - Single, [id:internal.GlobalVariable.g_object_id, url:internal.GlobalVariable.g_base_url]))",,,2018-10-24 00:54:45,2018-10-24 00:54:46,0.582s,PASSED
+verifyResponseStatusCode,,,2018-10-24 00:54:46,2018-10-24 00:54:46,0.006s,PASSED
+verifyElementPropertyValue,,,2018-10-24 00:54:46,2018-10-24 00:54:46,0.038s,PASSED
+verifyElementPropertyValue,,,2018-10-24 00:54:46,2018-10-24 00:54:46,0.035s,PASSED
+,,,,,,
+Test Cases/Users/Integration 3 - Update,,,2018-10-24 00:54:46,2018-10-24 00:54:47,0.729s,PASSED
+"Statement - readResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 3 - Update, [id:internal.GlobalVariable.g_object_id, url:internal.GlobalVariable.g_base_url]))",,,2018-10-24 00:54:46,2018-10-24 00:54:47,0.421s,PASSED
+verifyResponseStatusCode,,,2018-10-24 00:54:47,2018-10-24 00:54:47,0.008s,PASSED
+verifyElementPropertyValue,,,2018-10-24 00:54:47,2018-10-24 00:54:47,0.036s,PASSED
+verifyElementPropertyValue,,,2018-10-24 00:54:47,2018-10-24 00:54:47,0.036s,PASSED
+,,,,,,
+Test Cases/Users/Integration 4 - Read,,,2018-10-24 00:54:47,2018-10-24 00:54:47,0.683s,PASSED
+"Statement - readResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 2 - Read - Single, [id:internal.GlobalVariable.g_object_id, url:internal.GlobalVariable.g_base_url]))",,,2018-10-24 00:54:47,2018-10-24 00:54:47,0.218s,PASSED
+verifyResponseStatusCode,,,2018-10-24 00:54:47,2018-10-24 00:54:47,0.006s,PASSED
+verifyElementPropertyValue,,,2018-10-24 00:54:47,2018-10-24 00:54:47,0.033s,PASSED
+verifyElementPropertyValue,,,2018-10-24 00:54:47,2018-10-24 00:54:47,0.019s,PASSED
+,,,,,,
+Test Cases/Users/Integration 5 - Delete,,,2018-10-24 00:54:47,2018-10-24 00:54:48,0.550s,PASSED
+"Statement - deleteResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 4 - Delete, [id:internal.GlobalVariable.g_object_id, url:internal.GlobalVariable.g_base_url]))",,,2018-10-24 00:54:48,2018-10-24 00:54:48,0.264s,PASSED
+verifyResponseStatusCode,,,2018-10-24 00:54:48,2018-10-24 00:54:48,0.005s,PASSED
+,,,,,,
+Test Cases/Users/Integration 6 - Read,,,2018-10-24 00:54:48,2018-10-24 00:54:48,0.531s,PASSED
+"Statement - readResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 2 - Read - Single, [id:internal.GlobalVariable.g_object_id, url:internal.GlobalVariable.g_base_url]))",,,2018-10-24 00:54:48,2018-10-24 00:54:48,0.316s,PASSED
+verifyResponseStatusCode,,,2018-10-24 00:54:48,2018-10-24 00:54:48,0.012s,PASSED

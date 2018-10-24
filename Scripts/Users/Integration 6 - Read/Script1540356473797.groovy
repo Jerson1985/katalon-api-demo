@@ -13,10 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Users/Integration 1 - Create'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Users/Integration 2 - Read'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Users/Integration 3 - Update'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Users/Integration 4 - Read'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Users/Integration 5 - Delete'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Users/Integration 6 - Read'), [:], FailureHandling.STOP_ON_FAILURE)
+readResponse = WS.sendRequest(findTestObject('Users/User 2 - Read - Single', [('id') : GlobalVariable.g_object_id, ('url') : GlobalVariable.g_base_url]))
+
+WS.verifyResponseStatusCode(readResponse, 404, FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Users Integration Suite" time="17" tests="6" failures="0" errors="0">
+   <testsuite name="Users Integration Suite" tests="6" failures="0" errors="0" time="17" timestamp="2018-10-24 00:54:31" hostname="mvale - DESKTOP-A0TKIK2" id="Test Suites/Users Integration Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mvale\\dev\\katalon-api-demo\\Reports\\Users Integration Suite\\20181024_005426"/>
+         <property name="logFiles" value="C:\\Users\\mvale\\dev\\katalon-api-demo\\Reports\\Users Integration Suite\\20181024_005426\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mvale - DESKTOP-A0TKIK2"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Users/Integration 1 - Create" classname="Test Cases/Users/Integration 1 - Create" status="PASSED">
+         <system-out><![CDATA[2018-10-24 00:54:32 - [TEST_CASE][PASSED] - Test Cases/Users/Integration 1 - Create: Test Cases/Users/Integration 1 - Create
+
+2018-10-24 00:54:33 - [TEST_STEP][PASSED] - Statement - createResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 1 - Create, [url:internal.GlobalVariable.g_base_url])): Send request and verify the response successfully
+
+2018-10-24 00:54:44 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-10-24 00:54:44 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentResponse(): null
+
+2018-10-24 00:54:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-10-24 00:54:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-10-24 00:54:44 - [TEST_STEP][PASSED] - Statement - org.assertj.core.api.Assertions.assertThat(response.getStatusCode()).isEqualTo(201): null
+
+2018-10-24 00:54:45 - [TEST_STEP][PASSED] - Statement - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+2018-10-24 00:54:45 - [TEST_STEP][PASSED] - Statement - jsonResponse = jsonSlurper.parseText(response.getResponseText()): null
+
+2018-10-24 00:54:45 - [TEST_STEP][PASSED] - Statement - org.assertj.core.api.Assertions.assertThat(jsonResponse.firstName).isEqualTo("Mitch"): null
+
+2018-10-24 00:54:45 - [TEST_STEP][PASSED] - Statement - org.assertj.core.api.Assertions.assertThat(jsonResponse.lastName).isEqualTo("Valenta"): null
+
+2018-10-24 00:54:45 - [TEST_STEP][PASSED] - Statement - g_object_id = id: null
+
+2018-10-24 00:54:45 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-10-24 00:54:45 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-10-24 00:54:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-10-24 00:54:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-10-24 00:54:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-10-24 00:54:45 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-10-24 00:54:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-10-24 00:54:45 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Users/Integration 2 - Read" classname="Test Cases/Users/Integration 2 - Read" status="PASSED">
+         <system-out><![CDATA[2018-10-24 00:54:45 - [TEST_CASE][PASSED] - Test Cases/Users/Integration 2 - Read: Test Cases/Users/Integration 2 - Read
+
+2018-10-24 00:54:45 - [TEST_STEP][PASSED] - Statement - readResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 2 - Read - Single, [id:internal.GlobalVariable.g_object_id, url:internal.GlobalVariable.g_base_url])): Send request successfully
+
+2018-10-24 00:54:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-10-24 00:54:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-10-24 00:54:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-10-24 00:54:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-10-24 00:54:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-10-24 00:54:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-10-24 00:54:46 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Users/Integration 3 - Update" classname="Test Cases/Users/Integration 3 - Update" status="PASSED">
+         <system-out><![CDATA[2018-10-24 00:54:46 - [TEST_CASE][PASSED] - Test Cases/Users/Integration 3 - Update: Test Cases/Users/Integration 3 - Update
+
+2018-10-24 00:54:46 - [TEST_STEP][PASSED] - Statement - readResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 3 - Update, [id:internal.GlobalVariable.g_object_id, url:internal.GlobalVariable.g_base_url])): Send request and verify the response successfully
+
+2018-10-24 00:54:46 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-10-24 00:54:47 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-10-24 00:54:47 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-10-24 00:54:47 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-10-24 00:54:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-10-24 00:54:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-10-24 00:54:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-10-24 00:54:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-10-24 00:54:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-10-24 00:54:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Users/Integration 4 - Read" classname="Test Cases/Users/Integration 4 - Read" status="PASSED">
+         <system-out><![CDATA[2018-10-24 00:54:47 - [TEST_CASE][PASSED] - Test Cases/Users/Integration 4 - Read: Test Cases/Users/Integration 4 - Read
+
+2018-10-24 00:54:47 - [TEST_STEP][PASSED] - Statement - readResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 2 - Read - Single, [id:internal.GlobalVariable.g_object_id, url:internal.GlobalVariable.g_base_url])): Send request and verify the response successfully
+
+2018-10-24 00:54:47 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-10-24 00:54:47 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-10-24 00:54:47 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-10-24 00:54:47 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-10-24 00:54:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-10-24 00:54:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-10-24 00:54:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-10-24 00:54:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-10-24 00:54:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-10-24 00:54:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Users/Integration 5 - Delete" classname="Test Cases/Users/Integration 5 - Delete" status="PASSED">
+         <system-out><![CDATA[2018-10-24 00:54:47 - [TEST_CASE][PASSED] - Test Cases/Users/Integration 5 - Delete: Test Cases/Users/Integration 5 - Delete
+
+2018-10-24 00:54:48 - [TEST_STEP][PASSED] - Statement - deleteResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 4 - Delete, [id:internal.GlobalVariable.g_object_id, url:internal.GlobalVariable.g_base_url])): Send request successfully
+
+2018-10-24 00:54:48 - [MESSAGE][PASSED] - Send request successfully
+
+2018-10-24 00:54:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-10-24 00:54:48 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Users/Integration 6 - Read" classname="Test Cases/Users/Integration 6 - Read" status="PASSED">
+         <system-out><![CDATA[2018-10-24 00:54:48 - [TEST_CASE][PASSED] - Test Cases/Users/Integration 6 - Read: Test Cases/Users/Integration 6 - Read
+
+2018-10-24 00:54:48 - [TEST_STEP][PASSED] - Statement - readResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Users/User 2 - Read - Single, [id:internal.GlobalVariable.g_object_id, url:internal.GlobalVariable.g_base_url])): Send request successfully
+
+2018-10-24 00:54:48 - [MESSAGE][PASSED] - Send request successfully
+
+2018-10-24 00:54:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-10-24 00:54:48 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-24 00:54:31 - [TEST_SUITE][PASSED] - Users Integration Suite: Test Cases/Users/Integration 6 - Read]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
